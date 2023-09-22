@@ -8,7 +8,7 @@ API_HASH = os.environ.get("API_HASH", "158b014213c39d3b342a8792e495a5dc")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6139931468:AAEInK7S9neJ5Z_IlJx3bWE8s7JWDvamFfU") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "fsremote") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1001857528168") 
 
 DB_NAME = os.environ.get("DB_NAME","Cluster0")     
 
@@ -18,6 +18,6 @@ FLOOD = int(os.environ.get("FLOOD", "10"))
 
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/5fc119c05326d2595965f.jpg")
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1001857528168').split()]
 
 PORT = os.environ.get("PORT", "8080")
