@@ -8,7 +8,7 @@ API_HASH = os.environ.get("API_HASH", "158b014213c39d3b342a8792e495a5dc")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6139931468:AAEInK7S9neJ5Z_IlJx3bWE8s7JWDvamFfU") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", "-1001710818417") 
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1001857528168") 
 
 DB_NAME = os.environ.get("DB_NAME","Cluster0")     
 
